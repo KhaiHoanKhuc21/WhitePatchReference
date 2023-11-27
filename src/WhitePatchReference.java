@@ -31,7 +31,7 @@ public class WhitePatchReference {
 
         // Convert the balanced frame to an 8-bit unsigned integer image
         balancedFrame.convertTo(balancedFrame, CvType.CV_8U);
-
+        // return
         return balancedFrame;
     }
 
